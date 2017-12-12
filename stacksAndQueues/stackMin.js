@@ -18,8 +18,9 @@ class StackMin {
 
   pop() {
     if (this.count > 0) {
-      let top = this.storage[--this.count];
+      let top = this.storage[this.count - 1];
       delete this.storage[this.count];
+      this.count--;
       return top;
     }
   }
