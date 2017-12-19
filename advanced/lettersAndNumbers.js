@@ -1,7 +1,7 @@
 // Given an array filled with letters and numbers, find the longest subarray with an equal number of letters and numbers.
 
 // Ex: ["a", "a", "a", "a", 1, 1, "a", 1, 1, "a", "a", 1, "a", "a", 1, "a", "a", "a", "a", "a"]; --> ["a", 1, 1, "a", 1, 1, "a", "a", 1, "a", "a", 1] (12)
-const letsAndNums => (arr) {
+const letsAndNums = (arr) => {
   let counts = {
     nums: [],
     lets: [],
